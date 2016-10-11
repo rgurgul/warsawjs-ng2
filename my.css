@@ -5,3 +5,15 @@
 .slide {
     padding-top: 38px !important;
 }
+
+.my-border {
+    border: 1px solid black;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
