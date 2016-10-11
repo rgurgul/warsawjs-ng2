@@ -75,15 +75,15 @@
     <h2>
         What is new in Angular 2 when we think about developer environment?
     </h2>
-    <ol>
-        <li class="next">
+    <ul>
+        <li class="">
             ECMAScript 6 and TypeScript
             <ul>
-                <li class="next">Class and interfaces</li>
-                <li class="next">Strongly typed</li>
+                <li class="">Class and interfaces</li>
+                <li class="">Strongly typed</li>
             </ul>
         </li>
-    </ol>
+    </ul>
     <!--<p class="next note">We have to compile TypeScript to JavaScript</p>-->
 </section>
 
@@ -92,7 +92,7 @@
         What we'll need in Angular 2 dev environment?
     </h2>
     <ol>
-        <li class="next">Compilation TypeScript to JavaScript - browsers not support TypeScript</li>
+        <li class="">Compilation TypeScript to JavaScript - browsers not support TypeScript</li>
         <li class="next">CSS Preprocessor integration support (eg. SASS)</li>
         <li class="next">3rd Party Library Installation (eg. jQuery)</li>
         <li class="next">Unit and e2e tests configuration (Karma, Protractor)</li>
@@ -102,7 +102,7 @@
 
 <section class="slide">
     <h2>Three ways to preparing dev environment. <br>Problems and solutions</h2>
-    <p class="next">We'll use
+    <p class="">We'll use
         <mark>Node.js</mark>
         and
         <mark>package.json</mark>
@@ -130,32 +130,29 @@
 </section>
 
 <section class="slide">
-    <h2>Angular-cli new project serve</h2>
-    <img src="pictures/app-works.png" style="border: 1px solid black;" width="40%">
-    <hr>
-    <p class="note">live-reload server works!</p>
+    <h2>Angular-cli - new project in browser</h2>
+    <div style="float: left">
+        <img src="pictures/app-works.png" style="border: 1px solid black;" width="70%">
+    </div>
+    <div>
+        <ol>
+            <li class="">live-reload server works!</li>
+            <li class="next">3rd Party Library Installation</li>
+            <li class="next">CSS Preprocessor integration</li>
+            <li class="next">Running unit tests</li>
+            <li class="next">Running end to end tests</li>
+            <li class="next">
+                <mark>ng generate</mark>
+            </li>
+        </ol>
+    </div>
 </section>
-
-<section class="slide">
-    <h2>Angular-cli - additionally support</h2>
-    <ol>
-        <li class="next">3rd Party Library Installation</li>
-        <li class="next">CSS Preprocessor integration</li>
-        <li class="next">Running unit tests</li>
-        <li class="next">Running end to end tests</li>
-        <li class="next">
-            <mark>ng generate</mark>
-        </li>
-    </ol>
-</section>
-
 
 <section class="slide">
     <h2>Angular-cli generator</h2>
-    <img class="next" src="pictures/generate-cli.png" width="400">
+    <img style="float: left;" class="" src="pictures/generate-cli.png" width="500">
 
-    <div class="next">
-        <hr>
+    <div class="next" style="float: right;">
         <img src="pictures/my.png" width="300">
     </div>
 </section>
@@ -175,70 +172,59 @@
 <section class="slide">
     <br><br><br><br>
     <h2>
-        Second part:
-        Unit test
+        Part II: Unit test
     </h2>
 </section>
 
-<section class="slide">
-    Programming is funny because when I check
-    </section>
 
 <section class="slide">
     <h2>
-        Front End Development & Unit Test Automation Trends!
+        Survey.
     </h2>
     <img src="pictures/believe.png" width="80%">
 </section>
 
 <section class="slide">
-    <h2>
-        Front End Development & Unit Test Automation Trends!
-    </h2>
+    <h2>Survey cd.</h2>
     <img src="pictures/implement.png" width="80%">
 </section>
 
-<section class="slide">
-    <h2>
-        Why we should write test
-    </h2>
-    <ol>
-        <li class="next">dają nam gwarancję że wszystko jest ok</li>
-        <li class="next">you understand your requirements and your code better</li>
-        <li class="next">you take care of good quality of your code</li>
-        <li class="next">you can make big changes</li>
-        <li class="next">you can update your libraries</li>
-        <li class="next"></li>
-        <li class="next">you can write and run unit test without internet</li>
-        <li class="next">wykonują się bardzo szybko (często w trybie live)</li>
-        <li class="next">nowaday writing unit test is quite easy</li>
-    </ol>
-</section>
 
-<section class="slide">
+<!--<section class="slide">
     <h2>
         Unit test example
     </h2>
     <img src="pictures/calc.png" width="80%">
+</section>-->
+
+<section class="slide">
+    <h2>
+        Component example.
+    </h2>
+    <img src="pictures/component.png" width="40%" style="float: left;">
+    <div>
+        <img src="pictures/obj.png" widht="40%">
+    </div>
 </section>
 
 <section class="slide">
     <h2>
-        Unit test component
+        <br><br><br>
+        How Karma works?
     </h2>
-    <img src="pictures/component.png" width="80%">
 </section>
 
 <section class="slide">
     <h2>
-        What we should prepare.
+        Testing component.
     </h2>
+    <div>What should we prepare?</div>
     <ol>
         <li class="next">Configure Testing module</li>
         <li class="next">Create component</li>
-        <li class="next">make reference to class instance</li>
-        <li class="next">make reference to template</li>
+        <li class="next">To extract reference to class instance and template</li>
     </ol>
+    <p class="next">...and test it</p>
 </section>
 
 <section class="slide">
@@ -250,268 +236,25 @@
 
 <section class="slide">
     <h2>
-        Testing
+        Testing case
     </h2>
     <img src="pictures/test1.png" width="80%">
 </section>
 
-
 <section class="slide">
-    <h2>Slide Header</h2>
-
-    <p>Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future sriracha pickled
-        aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch letterpress.</p>
-    <p>Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy. Gluten-free roof party
-        plaid four loko quinoa.</p>
-    <p class="note">Echo Park 8-bit sustainable umami deep v Kickstarter.</p>
-</section>
-
-<section class="slide">
-    <h2>Inline Elements</h2>
-
-    <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr
-        <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl
-        <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred
-        <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag,
-        <mark>leggings</mark>
-        skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko
-        street art asymmetrical. Asymmetrical
-        <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-    </p>
-
-    <footer class="footer">
-        <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr
-            <strong>sriracha</strong>, flexitarian pug chia master cleanse vinyl
-            <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party. Messenger bag retro cred
-            <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag,
-            <mark>leggings</mark>
-            skateboard literally<sup>1</sup> bicycle rights H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four
-            loko street art asymmetrical. Asymmetrical
-            <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-        </p>
-    </footer>
-</section>
-
-<section class="slide">
-    <h2>Columns</h2>
-    <p class="double">Echo Park 8-bit sustainable umami deep v Kickstarter. DIY cliche typewriter brunch, Odd Future
-        sriracha pickled aesthetic. Farm-to-table bespoke fingerstache, kale chips umami brunch American Apparel
-        letterpress. Whatever authentic disrupt, you probably haven't heard of them direct trade mlkshk Etsy.
-        Gluten-free roof party plaid American Apparel four loko quinoa. Echo Park 8-bit sustainable.</p>
-</section>
-
-<section class="slide">
-    <h2>Quotes</h2>
-    <blockquote>
-        <p>Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan
-            tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester.</p>
-    </blockquote>
-    <figure>
-        <blockquote>
-            <p>Post-ironic fashion axe flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale
-                chips literally.</p>
-        </blockquote>
-        <figcaption>Yours Truly</figcaption>
-    </figure>
-</section>
-
-<section class="slide">
-    <h2>Nested Lists</h2>
-    <ol>
-        <li>Literally viral vegan, ugh drinking vinegar photo booth</li>
-        <li>Wes Anderson chillwave Marfa pour-over Etsy banh mi</li>
-        <li>Ethnic polaroid lo-fi iPhone ennui
-            <ul>
-                <li>Yr wayfarers before they sold out Kickstarter asymmetrical</li>
-                <li>Irony flexitarian readymade quinoa, kogi bespoke meggings narwhal</li>
-                <li>Skateboard Etsy twee artisan Echo Park</li>
-            </ul>
-        </li>
-        <li>Tonx kitsch fingerstache readymade, retro single-origin coffee</li>
-    </ol>
-</section>
-
-<section class="slide">
-    <h2>Simple Table</h2>
-    <table>
-        <tr>
-            <th scope="col">Gentrify</th>
-            <th>Twee</th>
-            <th>Artisan</th>
-            <th>Banksy</th>
-        </tr>
-        <tr>
-            <th scope="row">Messenger</th>
-            <td>Mixtape</td>
-            <td>Small batch</td>
-            <td>Bicycle rights</td>
-        </tr>
-        <tr>
-            <th scope="row">Meggings</th>
-            <td>Freegan</td>
-            <td>Retro biodiesel</td>
-            <td>Slow-carb</td>
-        </tr>
-        <tr>
-            <th scope="row">Vegan</th>
-            <td>Occupy</td>
-            <td>Normcore</td>
-            <td>Put a bird on it</td>
-        </tr>
-        <tr>
-            <th scope="row">Next level</th>
-            <td>Selfies</td>
-            <td>Sustainable</td>
-            <td>Organic</td>
-        </tr>
-        <tr>
-            <th scope="row">Umami</th>
-            <td>Asymmetrical</td>
-            <td>Keytar</td>
-            <td>Craft beer</td>
-        </tr>
-        <tr>
-            <th scope="row">Biodiesel</th>
-            <td>Haven’t heard</td>
-            <td>Skateboard</td>
-            <td>Farm-to-table</td>
-        </tr>
-    </table>
-</section>
-
-<section class="slide">
-    <h2>Striped Table</h2>
-    <table class="striped">
-        <tr>
-            <th scope="col">Gentrify</th>
-            <th>Twee</th>
-            <th>Artisan</th>
-            <th>Banksy</th>
-        </tr>
-        <tr>
-            <th scope="row">Messenger</th>
-            <td>Mixtape</td>
-            <td>Small batch</td>
-            <td>Bicycle rights</td>
-        </tr>
-        <tr>
-            <th scope="row">Meggings</th>
-            <td>Freegan</td>
-            <td>Retro biodiesel</td>
-            <td>Slow-carb</td>
-        </tr>
-        <tr>
-            <th scope="row">Vegan</th>
-            <td>Occupy</td>
-            <td>Normcore</td>
-            <td>Put a bird on it</td>
-        </tr>
-        <tr>
-            <th scope="row">Next level</th>
-            <td>Selfies</td>
-            <td>Sustainable</td>
-            <td>Organic</td>
-        </tr>
-        <tr>
-            <th scope="row">Umami</th>
-            <td>Asymmetrical</td>
-            <td>Keytar</td>
-            <td>Craft beer</td>
-        </tr>
-        <tr>
-            <th scope="row">Biodiesel</th>
-            <td>Haven’t heard</td>
-            <td>Skateboard</td>
-            <td>Farm-to-table</td>
-        </tr>
-    </table>
-</section>
-
-<section class="slide prism">
-    <h2>Listing Slide</h2>
-
-    <pre style="font-size: 45px;" class="language-javascript line-numbers">
-            <code>
-                function wrap(value) {
-                    return function () {
-                        return value;
-                    }
-                }
-
-                function bind(monad, f) {
-                    return f(monad());
-                }
-            </code>
-        </pre>
-</section>
-
-<section class="slide prism">
-        <pre style="font-size: 30px;" class="language-javascript line-numbers">
-            <code>
-                var monad = wrap('cookie');
-                bind(monad, (value) => {
-                    console.info(value);
-                    return wrap(value);
-                });
-                monad = bind(monad, (value) => {
-                    return wrap({ type: value });
-                });
-                bind(monad, (value) => {
-                    console.log(value);
-                    return wrap(value);
-                });
-            </code>
-        </pre>
-</section>
-
-<section class="slide">
-    <h2 class="shout"><a href="">Linked</a> Shout</h2>
-</section>
-
-<section class="slide">
-    <h2 class="shout grow">Effect: Growing Shout</h2>
-</section>
-
-<section class="slide">
-    <h2 class="shout shrink">Effect: Shrinking Shout</h2>
-</section>
-
-<section class="slide">
-    <figure>
-        <img class="cover" src="vendors/shower-ribbon/pictures/exact.png" alt="">
-        <figcaption class="white">Copyright © 2016 <a href="">Yours Truly</a>, Famous Inc.</figcaption>
-    </figure>
-</section>
-
-<section class="slide">
-    <img class="cover" src="vendors/shower-ribbon/pictures/tall.png" alt="">
-</section>
-
-<section class="slide">
-    <img class="cover" src="vendors/shower-ribbon/pictures/wide.png" alt="">
-</section>
-
-<section class="slide white">
-    <img class="place top left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    <img class="place top" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    <img class="place top right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-
-    <img class="place left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    <img class="place" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    <img class="place right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-
-    <img class="place bottom left" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    <img class="place bottom" src="vendors/shower-ribbon/pictures/square.png" alt="">
-    <img class="place bottom right" src="vendors/shower-ribbon/pictures/square.png" alt="">
-</section>
-
-<section class="slide" data-timing="00:03">
-    <h3 class="shout">Automatic switch slide after <strong>3 secs</strong> ...</h3>
+    <h2>
+        Summary!
+        Does Unit test means only one unit?
+    </h2>
+    <div>
+        Challange!
+    </div>
 </section>
 
 <section class="slide">
     <h3 class="shout">See you next month at WarsawJS</h3>
 </section>
+
 
 <div class="progress"></div>
 
