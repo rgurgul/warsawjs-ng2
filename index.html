@@ -39,7 +39,7 @@
         <h2>
             <strong>Angular 2</strong>
             <div class="red">
-                - three ways to create our project
+                - do you like to configure your project?
             </div>
             <div class="red">
                 - why and how to write Unit test
@@ -53,6 +53,7 @@
         <h2><a href="http://debugger.pl">debugger.pl</a></h2>
     </div>
 </section>
+
 
 <!--<section class="slide">
     <h2>Please update slides:</h2>
@@ -72,18 +73,23 @@
 
 <section class="slide">
     <h2>
-        Main difference between Angular 1 and Angular 2 is TypeScript.
+        What is new in Angular 2 when we think about developer environment?
     </h2>
     <ol>
-        <li class="next">Using class</li>
-        <li class="next">Using interfaces</li>
-        <li class="next">Strongly typed</li>
+        <li class="next">
+            ECMAScript 6 and TypeScript
+            <ul>
+                <li class="next">Class and interfaces</li>
+                <li class="next">Strongly typed</li>
+            </ul>
+        </li>
     </ol>
+    <!--<p class="next note">We have to compile TypeScript to JavaScript</p>-->
 </section>
 
 <section class="slide">
     <h2>
-        what we'll need while writing Angular 2 app?
+        What we'll need in dev environment?
     </h2>
     <ol>
         <li class="next">Compilation TypeScript to JavaScript - browsers not support TypeScript</li>
@@ -95,11 +101,22 @@
 </section>
 
 <section class="slide">
-    <h2>How we create front-end project?</h2>
-    <p class="next">We'll use Node.js and package.json file</p>
+    <h2>Three ways to preparing dev environment. <br>Problems and solutions</h2>
+    <p class="next">We'll use
+        <mark>Node.js</mark>
+        and
+        <mark>package.json</mark>
+        file
+    </p>
     <ol>
-        <li class="next">We do it yourself by creating package.json file</li>
-        <li class="next">We can get it as seed from github</li>
+        <li class="next">We
+            <mark>do it yourself</mark>
+            by creating package.json file
+        </li>
+        <li class="next">We can get it as
+            <mark>seed</mark>
+            from github
+        </li>
         <li class="next">We can use
             <mark>angular-cli</mark>
             (only Angular 2 project)
@@ -109,29 +126,39 @@
 
 <section class="slide">
     <h2>What is angular-cli?</h2>
-    <img src="pictures/cli.png" alt="">
+    <img src="pictures/cli2.png" style="width: 80%">
 </section>
 
 <section class="slide">
     <h2>Angular-cli new project serve</h2>
-    <img class="cover" src="pictures/app-works.png" style="border: 2px solid black;">
+    <img src="pictures/app-works.png" style="border: 1px solid black;" width="40%">
+    <hr>
+    <p class="note">live-reload server works!</p>
 </section>
 
 <section class="slide">
-    <h2>Angular-cli support us additionally with</h2>
+    <h2>Angular-cli - additionally support</h2>
     <ol>
+        <li class="next">3rd Party Library Installation</li>
+        <li class="next">CSS Preprocessor integration</li>
+        <li class="next">Running unit tests</li>
+        <li class="next">Running end to end tests</li>
         <li class="next">
-            ng generate
-            <br>
-            <img src="pictures/generate-cli.png" width="400">
+            <mark>ng generate</mark>
         </li>
-        <li class="next">ng test</li>
-        <li class="next">ng e2e</li>
     </ol>
 </section>
 
 
+<section class="slide">
+    <h2>Angular-cli generator</h2>
+    <img class="next" src="pictures/generate-cli.png" width="400">
 
+    <div class="next">
+        <hr>
+        <img src="pictures/my.png" width="300">
+    </div>
+</section>
 
 <section class="slide">
     <h2>
